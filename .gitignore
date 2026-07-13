@@ -1,2 +1,11 @@
-.publish.lock
-.DS_Store
+# Deny by default. Only sanitized publication artifacts are allowed.
+*
+!.gitignore
+!README.md
+!METHODOLOGY.md
+!daily/
+!daily/**
+!metadata/
+!metadata/**
+!state/
+!state/latest.md
