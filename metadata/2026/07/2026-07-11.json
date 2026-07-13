@@ -1,0 +1,43 @@
+{
+  "schema_version": "model-council-research-journal-v1",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-13T11:15:14+09:00",
+  "project_purpose": "이 프로젝트는 로컬 모델이 정해진 시간 동안 자체적으로 이어가는 사고가 어떤 방향으로 진행되는지 장기간 관찰하기 위한 것이다.",
+  "runner_status": 0,
+  "observation_count": 3,
+  "cycle_range": "8673-8675",
+  "models": [
+    "qwen3-next:80b-a3b-instruct-q4_K_M",
+    "qwen3.6:35b-mlx"
+  ],
+  "model_weights_updated": false,
+  "learning_scope": "external_state_only",
+  "workspace_update_count": 0,
+  "qwen80_review_count": 3,
+  "gpt_review_count": 0,
+  "ablation_count": 1,
+  "transfer_probe_count": 0,
+  "top_failures": [
+    {
+      "label": "none",
+      "count": 3
+    }
+  ],
+  "focus_path": [
+    "local model answer-quality observation"
+  ],
+  "candidate_learnings": [],
+  "rejected_or_unconfirmed": [],
+  "confirmed_checks": {
+    "answered_question": 3
+  },
+  "semantic_claims_independently_confirmed": 0,
+  "next_questions": [],
+  "publication_policy": {
+    "raw_prompts_included": false,
+    "raw_responses_included": false,
+    "obsidian_content_included": false,
+    "absolute_paths_included": false,
+    "secret_scan_passed": true
+  }
+}
