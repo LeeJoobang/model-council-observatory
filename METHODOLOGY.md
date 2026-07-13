@@ -15,6 +15,9 @@
 반복이나 장문 생성을 심화로 간주하지 않는다. 장기적으로는 질문 의존 깊이, 모순 수정,
 이전 상태의 인과적 기여, memory ablation, transfer probe와 독립 평가를 함께 본다.
 
+현재 v1.3의 고정 backbone과 출력 schema는 질문 공간을 강하게 제한한다. 그러므로 현 단계의
+연속성은 자율적 자기 탐구의 증거가 아니며, `constrained trajectory`로만 해석한다.
+
 ## 발행 정책
 
 발행기는 allowlist 파일만 Git에 추가한다. 원시 관측과 개인 Obsidian 문서는 실행 workspace에
