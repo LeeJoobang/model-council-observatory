@@ -4,7 +4,7 @@
   "generated_at": "2026-07-13T00:00:00+09:00",
   "project_purpose": "이 프로젝트는 로컬 모델이 정해진 시간 동안 자체적으로 이어가는 사고가 어떤 방향으로 진행되는지 장기간 관찰하기 위한 것이다.",
   "runner_status": 0,
-  "run_state": "no_observations",
+  "run_state": "causal_research_outcome_registered",
   "observation_count": 0,
   "cycle_range": "none",
   "models": [],
@@ -28,5 +28,22 @@
     "obsidian_content_included": false,
     "absolute_paths_included": false,
     "secret_scan_passed": true
+  },
+  "causal_research": {
+    "final_state": "PAUSED_BUDGET",
+    "campaign": "crl-20260713T063044Z-6f07d58d",
+    "night": "2026-07-13",
+    "research_outcome_counts": {
+      "total": 1
+    },
+    "research_outcome_distribution": {
+      "negative": 1
+    },
+    "frontier_change": false,
+    "fixture_excluded": true,
+    "provenance_counts": {
+      "LOCAL_EVIDENCE": 1
+    },
+    "learning_scope": "external_state_only"
   }
 }

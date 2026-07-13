@@ -13,7 +13,7 @@ model_weights_updated: false
 이 기록은 모델의 의식이나 자율적 가중치 학습을 주장하지 않는다. 모델 출력, 외부 기억, 검증 결과를 분리해 장기간의 사고 방향 변화를 관찰한다.
 
 ## Run State
-- run_state: `no_observations`
+- run_state: `causal_research_outcome_registered`
 - runner_status: `0`
 - observations: `0`
 - cycle_range: `none`
@@ -25,6 +25,17 @@ model_weights_updated: false
 - gpt_reviews: `0`
 - ablations: `0`
 - transfer_probes: `0`
+
+## Causal Research
+- final_state: `PAUSED_BUDGET`
+- campaign: `crl-20260713T063044Z-6f07d58d`
+- night: `2026-07-13`
+- research_outcome_counts: `{"total":1}`
+- research_outcome_distribution: `{"negative":1}`
+- frontier_change: `false`
+- fixture_excluded: `true`
+- provenance_counts: `{"LOCAL_EVIDENCE":1}`
+- learning_scope: `external_state_only`
 
 ## Direction Of Thought
 - 관찰 가능한 focus 변화 없음
