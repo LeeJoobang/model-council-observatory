@@ -28,7 +28,7 @@ model_weights_updated: false
 
 ## Causal Research
 - final_state: `PAUSED_BUDGET`
-- campaign: `crl-20260713T063044Z-6f07d58d`
+- campaign: `crl-20260713T064313Z-2b3d186f`
 - night: `2026-07-13`
 - research_outcome_counts: `{"total":1}`
 - research_outcome_distribution: `{"negative":1}`
