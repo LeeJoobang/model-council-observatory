@@ -27,14 +27,19 @@ model_weights_updated: false
 - transfer_probes: `0`
 
 ## Causal Research
-- final_state: `PAUSED_BUDGET`
-- campaign: `crl-20260713T064313Z-2b3d186f`
+- final_state: `VALIDATED_POSITIVE_OUTCOME`
+- campaign: `crl-20260713T065616Z-d48fe1f8`
+- campaign_epoch: `causal-research-v2-matched-arm-calibrated-v3`
 - night: `2026-07-13`
-- research_outcome_counts: `{"total":1}`
-- research_outcome_distribution: `{"negative":1}`
-- frontier_change: `false`
+- research_outcome_counts: `{"total":2}`
+- research_outcome_distribution: `{"negative":1,"positive":1}`
+- validation_tier: `dev`
+- fresh_holdout_enabled: `false`
+- holdout_locked_reason: `fresh_semantic_holdout_not_enabled`
+- validated_lesson_count: `0`
+- frontier_change: `true`
 - fixture_excluded: `true`
-- provenance_counts: `{"LOCAL_EVIDENCE":1}`
+- provenance_counts: `{"LOCAL_EVIDENCE":2}`
 - learning_scope: `external_state_only`
 
 ## Direction Of Thought
