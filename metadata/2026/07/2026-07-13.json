@@ -1,7 +1,7 @@
 {
   "schema_version": "model-council-research-journal-v1",
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T11:16:48+09:00",
+  "generated_at": "2026-07-13T00:00:00+09:00",
   "project_purpose": "이 프로젝트는 로컬 모델이 정해진 시간 동안 자체적으로 이어가는 사고가 어떤 방향으로 진행되는지 장기간 관찰하기 위한 것이다.",
   "runner_status": 0,
   "run_state": "no_observations",
