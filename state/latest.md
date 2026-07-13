@@ -13,6 +13,7 @@ model_weights_updated: false
 이 기록은 모델의 의식이나 자율적 가중치 학습을 주장하지 않는다. 모델 출력, 외부 기억, 검증 결과를 분리해 장기간의 사고 방향 변화를 관찰한다.
 
 ## Run State
+- run_state: `no_observations`
 - runner_status: `0`
 - observations: `0`
 - cycle_range: `none`
