@@ -1,0 +1,56 @@
+{
+  "schema_version": "model-council-research-journal-v1",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T00:00:00+09:00",
+  "project_purpose": "이 프로젝트는 로컬 모델이 정해진 시간 동안 자체적으로 이어가는 사고가 어떤 방향으로 진행되는지 장기간 관찰하기 위한 것이다.",
+  "runner_status": 0,
+  "run_state": "causal_research_outcome_registered",
+  "observation_count": 0,
+  "cycle_range": "none",
+  "models": [],
+  "model_weights_updated": false,
+  "learning_scope": "external_state_only",
+  "workspace_update_count": 0,
+  "qwen80_review_count": 0,
+  "gpt_review_count": 0,
+  "ablation_count": 0,
+  "transfer_probe_count": 0,
+  "top_failures": [],
+  "focus_path": [],
+  "candidate_learnings": [],
+  "rejected_or_unconfirmed": [],
+  "confirmed_checks": {},
+  "semantic_claims_independently_confirmed": 0,
+  "next_questions": [],
+  "publication_policy": {
+    "raw_prompts_included": false,
+    "raw_responses_included": false,
+    "obsidian_content_included": false,
+    "absolute_paths_included": false,
+    "secret_scan_passed": true
+  },
+  "causal_research": {
+    "final_state": "NO_TESTABLE_HYPOTHESIS",
+    "campaign": "crl-20260714T001449Z-bcd70427",
+    "campaign_epoch": "causal-research-v2-matched-arm-calibrated-v3",
+    "night": "2026-07-14",
+    "research_outcome_counts": {
+      "total": 2
+    },
+    "research_outcome_distribution": {
+      "negative": 1,
+      "positive": 1
+    },
+    "fresh_holdout_enabled": false,
+    "new_outcome_registered": false,
+    "blocked_frontier_status": "dev_supported",
+    "no_testable_reason": "frontier_leaf_status_dev_supported_requires_a_new_validated_test_path",
+    "validated_lesson_count": 0,
+    "frontier_change": false,
+    "fixture_excluded": true,
+    "provenance_counts": {
+      "LOCAL_EVIDENCE": 2
+    },
+    "learning_scope": "external_state_only"
+  }
+}
