@@ -13,7 +13,7 @@ model_weights_updated: false
 이 기록은 모델의 의식이나 자율적 가중치 학습을 주장하지 않는다. 모델 출력, 외부 기억, 검증 결과를 분리해 장기간의 사고 방향 변화를 관찰한다.
 
 ## Run State
-- run_state: `causal_research_no_testable_hypothesis`
+- run_state: `causal_research_outcome_registered`
 - runner_status: `0`
 - observations: `0`
 - cycle_range: `none`
@@ -27,21 +27,35 @@ model_weights_updated: false
 - transfer_probes: `0`
 
 ## Causal Research
-- final_state: `NO_TESTABLE_HYPOTHESIS`
-- campaign: `crl-20260714T001449Z-bcd70427`
-- campaign_epoch: `causal-research-v2-matched-arm-calibrated-v3`
+- final_state: `VALIDATED_NULL_OUTCOME`
+- campaign: `crl-20260714T125155Z-6b4bc92f`
+- campaign_epoch: `minimal-causal-source-precedence-v1`
 - night: `2026-07-14`
-- research_outcome_counts: `{"total":2}`
-- research_outcome_distribution: `{"negative":1,"positive":1}`
-- fresh_holdout_enabled: `false`
-- new_outcome_registered: `false`
-- blocked_frontier_status: `dev_supported`
-- no_testable_reason: `frontier_leaf_status_dev_supported_requires_a_new_validated_test_path`
+- research_outcome_counts: `{"total":5}`
+- research_outcome_distribution: `{"insufficient_signal":1,"null":2,"positive":2}`
+- validation_tier: `fresh_holdout`
+- fresh_holdout_enabled: `true`
+- new_outcome_registered: `true`
+- event_registry_id: `model-council-causal-research`
+- event_count: `32`
+- ledger_tip_hash: `8b14a1a6ae73284d5d163a4a1ddaa6810af5e5f6545a9bdc8ba41cb886d6db98`
+- as_of_event_hash: `8b14a1a6ae73284d5d163a4a1ddaa6810af5e5f6545a9bdc8ba41cb886d6db98`
 - validated_lesson_count: `0`
-- frontier_change: `false`
+- lesson_counts: `{"activated":0,"active":0,"consumed":0,"effect_reproduced":0,"expired":0,"registered":2,"revoked":0}`
+- memory_ablation: `not_recorded`
+- reproduction_count: `0`
+- frontier_change: `true`
 - fixture_excluded: `true`
-- provenance_counts: `{"LOCAL_EVIDENCE":2}`
+- provenance_counts: `{"LOCAL_EVIDENCE":5}`
 - learning_scope: `external_state_only`
+- scheduler_start_sla_seconds: `300`
+- allowed_test_path: `fresh_holdout`
+- reasoning_evidence_count: `28`
+- content_derived_hypothesis_count: `20`
+- source_linked_hypothesis_rate: `1.0`
+- critical_regression_count: `0`
+- parent_replay_count: `0`
+- duplicate_intervention_count: `0`
 
 ## Direction Of Thought
 - 관찰 가능한 focus 변화 없음
