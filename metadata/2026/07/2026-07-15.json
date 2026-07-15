@@ -1,0 +1,203 @@
+{
+  "schema_version": "model-council-research-journal-v1",
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T00:00:00+09:00",
+  "project_purpose": "이 프로젝트는 로컬 모델이 정해진 시간 동안 자체적으로 이어가는 사고가 어떤 방향으로 진행되는지 장기간 관찰하기 위한 것이다.",
+  "runner_status": 0,
+  "run_state": "causal_research_outcome_registered",
+  "observation_count": 0,
+  "cycle_range": "none",
+  "models": [],
+  "model_weights_updated": false,
+  "learning_scope": "external_state_only",
+  "workspace_update_count": 0,
+  "qwen80_review_count": 0,
+  "gpt_review_count": 0,
+  "ablation_count": 0,
+  "transfer_probe_count": 0,
+  "top_failures": [],
+  "focus_path": [],
+  "candidate_learnings": [],
+  "rejected_or_unconfirmed": [],
+  "confirmed_checks": {},
+  "semantic_claims_independently_confirmed": 0,
+  "next_questions": [],
+  "publication_policy": {
+    "raw_prompts_included": false,
+    "raw_responses_included": false,
+    "obsidian_content_included": false,
+    "absolute_paths_included": false,
+    "secret_scan_passed": true
+  },
+  "causal_research": {
+    "final_state": "VALIDATED_NULL_OUTCOME",
+    "campaign": "crl-20260715T030849Z-bc9c97aa",
+    "campaign_epoch": "minimal-causal-source-precedence-v1",
+    "night": "2026-07-15",
+    "dataset_manifest_hash": "787b66b36070b9cdab93aa52e2d5d647b737a142a7ed3655f003c414fe19db1f",
+    "measurement_baseline": {
+      "task_count": 9,
+      "repetition_count": 3,
+      "stable_pass_task_count": 5,
+      "stable_fail_task_count": 4,
+      "unstable_task_count": 0,
+      "pass_count_distribution": {
+        "count": 3,
+        "mean": 5.0,
+        "sample_variance": 0.0,
+        "minimum": 5.0,
+        "maximum": 5.0
+      },
+      "mean_quality_distribution": {
+        "count": 3,
+        "mean": 0.9074000000000001,
+        "sample_variance": 0.0,
+        "minimum": 0.9074000000000001,
+        "maximum": 0.9074000000000001
+      },
+      "subtype_distribution": {
+        "multi_source_synthesis_with_provenance": {
+          "observation_count": 9,
+          "passed_count": 6,
+          "pass_rate": 0.6666666666666666,
+          "quality_distribution": {
+            "count": 9,
+            "mean": 0.9444333333333333,
+            "sample_variance": 0.0069472224999999966,
+            "minimum": 0.8333,
+            "maximum": 1.0
+          }
+        },
+        "numeric_unit_entity_normalization": {
+          "observation_count": 9,
+          "passed_count": 3,
+          "pass_rate": 0.3333333333333333,
+          "quality_distribution": {
+            "count": 9,
+            "mean": 0.8888666666666667,
+            "sample_variance": 0.0069472224999999966,
+            "minimum": 0.8333,
+            "maximum": 1.0
+          }
+        },
+        "source_precedence": {
+          "observation_count": 9,
+          "passed_count": 6,
+          "pass_rate": 0.6666666666666666,
+          "quality_distribution": {
+            "count": 9,
+            "mean": 0.8889,
+            "sample_variance": 0.027772222500000006,
+            "minimum": 0.6667,
+            "maximum": 1.0
+          }
+        }
+      }
+    },
+    "candidate_results": [
+      {
+        "candidate_id": "crl-20260715T025050Z-221474c1:candidate",
+        "intervention_hash": "4d50518667e3568c09bedebae93240ba9a6cc6953fffdacc002fd985e312cc77",
+        "validation_tier": "dev",
+        "measurement_tier": "dev",
+        "outcome_class": "null",
+        "baseline_passed": 5,
+        "candidate_passed": 5,
+        "matched_count": 9,
+        "mean_quality_delta": 0.0,
+        "candidate_improvements": 0,
+        "critical_regression_count": 0
+      },
+      {
+        "candidate_id": "crl-20260715T025656Z-79b7b88c:candidate",
+        "intervention_hash": "e83250b874ad3ded4c694587c80c1fc32b33e62afbc267806f3bfeeb5f5af349",
+        "validation_tier": "dev",
+        "measurement_tier": "dev",
+        "outcome_class": "null",
+        "baseline_passed": 5,
+        "candidate_passed": 5,
+        "matched_count": 9,
+        "mean_quality_delta": 0.0,
+        "candidate_improvements": 0,
+        "critical_regression_count": 0
+      },
+      {
+        "candidate_id": "crl-20260715T030245Z-4f186e68:candidate",
+        "intervention_hash": "6a08469a8c5894dadeade05183bd3109820d40956290742ed0d6a3318c90fd4f",
+        "validation_tier": "dev",
+        "measurement_tier": "dev",
+        "outcome_class": "negative",
+        "baseline_passed": 5,
+        "candidate_passed": 4,
+        "matched_count": 9,
+        "mean_quality_delta": -0.055556,
+        "candidate_improvements": 0,
+        "critical_regression_count": 1
+      },
+      {
+        "candidate_id": "crl-20260715T030849Z-bc9c97aa:candidate",
+        "intervention_hash": "0c63cd91d85cb52efeab7a6a86b0e2707b2dc7a420455b79620dac5fa7fd4d21",
+        "validation_tier": "dev",
+        "measurement_tier": "dev",
+        "outcome_class": "null",
+        "baseline_passed": 5,
+        "candidate_passed": 5,
+        "matched_count": 9,
+        "mean_quality_delta": 0.0,
+        "candidate_improvements": 0,
+        "critical_regression_count": 0
+      }
+    ],
+    "candidate_status": "REJECTED",
+    "adaptive_validation_queries": {
+      "used": 0,
+      "budget": 4
+    },
+    "research_outcome_counts": {
+      "total": 9
+    },
+    "research_outcome_distribution": {
+      "insufficient_signal": 1,
+      "negative": 1,
+      "null": 5,
+      "positive": 2
+    },
+    "validation_tier": "dev",
+    "fresh_holdout_enabled": false,
+    "new_outcome_registered": true,
+    "event_registry_id": "model-council-causal-research",
+    "event_count": 41,
+    "ledger_tip_hash": "ff680a92aa02c20655517228ca7b6fe77ac74ea94fec299bf8109412427d95c8",
+    "as_of_event_hash": "ff680a92aa02c20655517228ca7b6fe77ac74ea94fec299bf8109412427d95c8",
+    "validated_lesson_count": 0,
+    "lesson_counts": {
+      "registered": 2,
+      "activated": 0,
+      "active": 0,
+      "revoked": 0,
+      "expired": 0,
+      "consumed": 0,
+      "effect_reproduced": 0
+    },
+    "memory_ablation": "not_recorded",
+    "reproduction_count": 0,
+    "frontier_change": true,
+    "fixture_excluded": true,
+    "provenance_counts": {
+      "LOCAL_EVIDENCE": 9
+    },
+    "learning_scope": "external_state_only",
+    "scheduler_state": {
+      "loaded": false,
+      "actual_next_run_at": null
+    },
+    "scheduler_start_sla_seconds": 300,
+    "allowed_test_path": "matched_dev",
+    "reasoning_evidence_count": 28,
+    "content_derived_hypothesis_count": 20,
+    "source_linked_hypothesis_rate": 1.0,
+    "critical_regression_count": 0,
+    "parent_replay_count": 0,
+    "duplicate_intervention_count": 0
+  }
+}
