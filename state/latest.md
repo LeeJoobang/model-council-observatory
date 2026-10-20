@@ -1,11 +1,11 @@
 ---
 type: model-trajectory-journal
-date: 2026-10-20
+date: 2026-10-21
 observations: 0
 learning_scope: external_state_only
 model_weights_updated: false
 ---
-# 2026-10-20 Model Trajectory Journal
+# 2026-10-21 Model Trajectory Journal
 
 ## Project Purpose
 이 프로젝트는 로컬 모델이 정해진 시간 동안 자체적으로 이어가는 사고가 어떤 방향으로 진행되는지 장기간 관찰하기 위한 것이다.
@@ -28,9 +28,9 @@ model_weights_updated: false
 
 ## Causal Research
 - final_state: `NO_TESTABLE_HYPOTHESIS`
-- campaign: `crl-20261019T160003Z-73b4991b`
+- campaign: `crl-20261020T160001Z-3da54b78`
 - campaign_epoch: `minimal-causal-source-precedence-v1`
-- night: `2026-10-20`
+- night: `2026-10-21`
 - dataset_manifest_hash: `787b66b36070b9cdab93aa52e2d5d647b737a142a7ed3655f003c414fe19db1f`
 - measurement_baseline: `{"mean_quality_distribution":{"count":3,"maximum":0.9074000000000001,"mean":0.9074000000000001,"minimum":0.9074000000000001,"sample_variance":0.0},"pass_count_distribution":{"count":3,"maximum":5.0,"mean":5.0,"minimum":5.0,"sample_variance":0.0},"repetition_count":3,"stable_fail_task_count":4,"stable_pass_task_count":5,"subtype_distribution":{"multi_source_synthesis_with_provenance":{"observation_count":9,"pass_rate":0.6666666666666666,"passed_count":6,"quality_distribution":{"count":9,"maximum":1.0,"mean":0.9444333333333333,"minimum":0.8333,"sample_variance":0.0069472224999999966}},"numeric_unit_entity_normalization":{"observation_count":9,"pass_rate":0.3333333333333333,"passed_count":3,"quality_distribution":{"count":9,"maximum":1.0,"mean":0.8888666666666667,"minimum":0.8333,"sample_variance":0.0069472224999999966}},"source_precedence":{"observation_count":9,"pass_rate":0.6666666666666666,"passed_count":6,"quality_distribution":{"count":9,"maximum":1.0,"mean":0.8889,"minimum":0.6667,"sample_variance":0.027772222500000006}}},"task_count":9,"unstable_task_count":0}`
 - candidate_results: `[{"baseline_passed":5,"candidate_id":"crl-20260715T025050Z-221474c1:candidate","candidate_improvements":0,"candidate_passed":5,"critical_regression_count":0,"intervention_hash":"4d50518667e3568c09bedebae93240ba9a6cc6953fffdacc002fd985e312cc77","matched_count":9,"mean_quality_delta":0.0,"measurement_tier":"dev","outcome_class":"null","validation_tier":"dev"},{"baseline_passed":5,"candidate_id":"crl-20260715T025656Z-79b7b88c:candidate","candidate_improvements":0,"candidate_passed":5,"critical_regression_count":0,"intervention_hash":"e83250b874ad3ded4c694587c80c1fc32b33e62afbc267806f3bfeeb5f5af349","matched_count":9,"mean_quality_delta":0.0,"measurement_tier":"dev","outcome_class":"null","validation_tier":"dev"},{"baseline_passed":5,"candidate_id":"crl-20260715T030245Z-4f186e68:candidate","candidate_improvements":0,"candidate_passed":4,"critical_regression_count":1,"intervention_hash":"6a08469a8c5894dadeade05183bd3109820d40956290742ed0d6a3318c90fd4f","matched_count":9,"mean_quality_delta":-0.055556,"measurement_tier":"dev","outcome_class":"negative","validation_tier":"dev"},{"baseline_passed":5,"candidate_id":"crl-20260715T030849Z-bc9c97aa:candidate","candidate_improvements":0,"candidate_passed":5,"critical_regression_count":0,"intervention_hash":"0c63cd91d85cb52efeab7a6a86b0e2707b2dc7a420455b79620dac5fa7fd4d21","matched_count":9,"mean_quality_delta":0.0,"measurement_tier":"dev","outcome_class":"null","validation_tier":"dev"}]`
@@ -54,11 +54,11 @@ model_weights_updated: false
 - fixture_excluded: `true`
 - provenance_counts: `{"LOCAL_EVIDENCE":9}`
 - learning_scope: `external_state_only`
-- scheduled_at: `2026-10-20T01:00:00+09:00`
+- scheduled_at: `2026-10-21T01:00:00+09:00`
 - scheduler_state: `{"actual_next_run_at":null,"loaded":false}`
-- wrapper_started_at: `2026-10-20T01:00:02+09:00`
-- supervisor_started_at: `2026-10-20T01:00:03+09:00`
-- start_delay_seconds: `2.0`
+- wrapper_started_at: `2026-10-21T01:00:01+09:00`
+- supervisor_started_at: `2026-10-21T01:00:01+09:00`
+- start_delay_seconds: `1.0`
 - scheduler_start_sla_seconds: `300`
 - scheduler_start_sla_met: `true`
 - reasoning_evidence_count: `28`
